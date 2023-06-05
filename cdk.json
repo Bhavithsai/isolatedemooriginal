@@ -15,6 +15,10 @@
     ]
   },
   "context": {
+    "accountid": "317623606131",
+    "region": "eu-central-1",
+    "VPC-NAME":"opcf op-tcs development",
+    "VPC-ID": "vpc-03941e18a3dde38d2",
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/core:target-partitions": [
