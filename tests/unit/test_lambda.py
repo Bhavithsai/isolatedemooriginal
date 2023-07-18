@@ -11,14 +11,14 @@ from aws_cdk import (
     )
 from aws_cdk import (Fn, CfnOutput,Duration)
 #from .basic_infra_dev_stack import BasicInfraDevStack
-VPC_ID =  'vpc-03941e18a3dde38d2'
-# IsolateEc2Stack(app, "IsolateEc2Stack", env=cdk.Environment(account="317623606131", region="eu-central-1"), vpc_id=VPC_ID)
+VPC_ID =  'vpc-0e38d2'
+# IsolateEc2Stack(app, "IsolateEc2Stack", env=cdk.Environment(account="3171", region="eu-cl-1"), vpc_id=VPC_ID)
 app = cdk.App()
 # accountid = app.node.try_get_context("accountid")
 # region = app.node.try_get_context("region")
 # vpc_id = app.node.try_get_context("VPC-ID")
 
-env_EU = cdk.Environment(account="317623606131", region="eu-central-1")
+env_EU = cdk.Environment(account="131", region="eu-central-1")
 
 import unittest
 from ec2_isolation_cdk_demo.ec2_isolate import IsolateEc2Stack
