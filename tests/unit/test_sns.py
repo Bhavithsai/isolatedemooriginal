@@ -15,9 +15,9 @@
 # import aws_cdk.assertions as assertions
 # from ec2_isolation_cdk_demo.ec2_isolate import IsolateEc2Stack
 # from ec2_isolation_cdk_demo.basicinfradev import Ec2IsolationCdkDemoStack
-# VPC_ID =  'vpc-03941e18a3dde38d2'
+# VPC_ID =  'vpc-038d2'
 # app = cdk.App()
-# # ec2_isolate_stack_test = IsolateEc2Stack(app, "IsolateEc2Stack", env=cdk.Environment(account="317623606131", region="eu-central-1"), vpc_id=VPC_ID)
+# # ec2_isolate_stack_test = IsolateEc2Stack(app, "IsolateEc2Stack", env=cdk.Environment(account="331", region="eu-central-1"), vpc_id=VPC_ID)
 # # ec2_isolate_stack_template = assertions.Template.from_stack(ec2_isolate_stack_test)
 
 # class TestEc2IsolationCdkDemoStack(unittest.TestCase):
@@ -34,7 +34,7 @@
     #     self.assertEqual(subscription.endpoint, 'bhavith.sai.poola@op.fi')
 
     # def test_sns_topic_configuration(self):
-    #     ec2_isolate_stack_test = IsolateEc2Stack(app, "IsolateEc2Stack",env=cdk.Environment(account="317623606131", region="eu-central-1"), vpc_id=VPC_ID)
+    #     ec2_isolate_stack_test = IsolateEc2Stack(app, "IsolateEc2Stack",env=cdk.Environment(account="36131", region="eu-central-1"), vpc_id=VPC_ID)
     #     ec2_isolate_stack_template = assertions.Template.from_stack(ec2_isolate_stack_test)
 
     #     self.assertIsNotNone(ec2_isolate_stack_test.notification_SNS_topic)
@@ -43,9 +43,9 @@
         
     #     subscription = ec2_isolate_stack_test.notification_SNS_topic.subscriptions[0]
     #     self.assertIsInstance(subscription, subscriptions.EmailSubscription)
-    #     self.assertEqual(subscription.endpoint, "bhavith.sai.poola@op.fi")
+    #     self.assertEqual(subscription.endpoint, "bhavith.sai.po")
     # def test_sns_topic_subscription(self):
-    #     ec2_isolate_stack_test = IsolateEc2Stack(app, "IsolateEc2Stack",env=cdk.Environment(account="317623606131", region="eu-central-1"), vpc_id=VPC_ID)
+    #     ec2_isolate_stack_test = IsolateEc2Stack(app, "IsolateEc2Stack",env=cdk.Environment(account="31131", region="eu-central-1"), vpc_id=VPC_ID)
     
     #     # Get the SNS topic ARN from the stack
     #     topic_arn = ec2_isolate_stack_test.notification_SNS_topic_arn
@@ -70,7 +70,7 @@
     #     for subscription in subscriptions:
     #         if isinstance(subscription, subscriptions.EmailSubscription):
     #             # Assert the email address
-    #             self.assertEqual(subscription.endpoint, "bhavith.sai.poola@op.fi")
+    #             self.assertEqual(subscription.endpoint, "bhavith.sai.pooi")
     #             email_subscription_found = True
     #             break
     
