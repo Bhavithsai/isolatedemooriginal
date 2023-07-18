@@ -15,9 +15,9 @@
 # import aws_cdk.assertions as assertions
 # from ec2_isolation_cdk_demo.ec2_isolate import IsolateEc2Stack
 # from ec2_isolation_cdk_demo.basicinfradev import Ec2IsolationCdkDemoStack
-# VPC_ID =  'vpc-03941e18a3dde38d2'
+# VPC_ID =  'vpc-038d2'
 # app = cdk.App()
-# ec2_isolate_stack_test = IsolateEc2Stack(app, "IsolateEc2Stack", env=cdk.Environment(account="317623606131", region="eu-central-1"), vpc_id=VPC_ID)
+# ec2_isolate_stack_test = IsolateEc2Stack(app, "IsolateEc2Stack", env=cdk.Environment(account="331", region="eu-central-1"), vpc_id=VPC_ID)
 # ec2_isolate_stack_template = assertions.Template.from_stack(ec2_isolate_stack_test)
 # import boto3
 
@@ -40,4 +40,4 @@
 #             print(f"Error occurred: {e}")
 
 # # Provide the security group ID you want to test
-# security_group_id = 'sg-0394c7bd577a615be'
+# security_group_id = 'sg-0a615be'
